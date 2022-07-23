@@ -14,4 +14,10 @@ pip install -r requirements.txt
 bridge_ip_address = ""
 # List of lights this motion sensor controls
 lightsID = []
+# The GPIO port your motion sensor is on
+pir_port = 0
+```
+3. Start the script
+```
+python3 index.py
 ```
